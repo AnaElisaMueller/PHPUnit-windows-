@@ -1,0 +1,18 @@
+1. Interpretação:
+
+a) Qual é o propósito da classe ShoppingList?
+R.: É uma classe com o propósito de fazer uma lista de compras que simule uma da realidade.
+Contem funções para fazer alterações na lista.
+
+b) Quais são os métodos disponíveis na classe ShoppingList e o que cada um
+deles faz?
+R.: 
+• addItem($item): Adiciona um item à lista de compras(caso este não exista).
+• getItems(): Retorna todos os itens da lista de compras.
+• removeItem($index): Remove um item da lista de compras com base no índice e altera o index dos outros itens para não ficar um espaço vazio.
+
+c) Explique o que é testado no método testAddItem().
+R.: É testado se está adicionando um item na lista, verificando se o resultado está de acordo com o esperado. No teste ele adiciona dois item (um por vez), pega a lista total e verifica o resultado.
+
+d) Qual é a finalidade do método testRemoveItem() e o que ele verifica?
+R.: A finalidade é verificar se um item é excluido da lista. No teste ele remove um item, pega a lista total e verifica o resultado.
